@@ -12,6 +12,12 @@
     background-color: var.$Lighgray;
     padding-top: 6px;
 }
+
+@media(min-width: 1440px){
+    .main-container{
+        width: 100%;
+    }
+}
 .card-container{
 
     background-color: var.$White;

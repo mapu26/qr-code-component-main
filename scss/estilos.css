@@ -12,6 +12,11 @@
   padding-top: 6px;
 }
 
+@media (min-width: 1440px) {
+  .main-container {
+    width: 100%;
+  }
+}
 .card-container {
   background-color: hsl(0deg, 0%, 100%);
   width: 324px;
