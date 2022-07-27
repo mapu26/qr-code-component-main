@@ -1,0 +1,72 @@
+@use 'variables' as var;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 375px;
+    margin: auto;
+    background-color: var.$Lighgray;
+    padding-top: 6px;
+}
+.card-container{
+
+    background-color: var.$White;
+    width: 324px;
+    height: 499px;
+    margin: auto;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    border-radius: 20px;
+    img{
+        width: 287px;
+        height: 287px;
+        margin-top: 18px;
+        margin-left: 18px;
+        border-radius: 10px;
+    }
+}
+
+.card-texto{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    &__title{
+        color: var.$Darkblue;
+        font-weight: 700;
+        font-family: var.$font;
+        text-align: center;
+        width: 287px;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+    &__parrafo{
+        font-size: 15px;
+        font-family: var.$font;
+        color: var.$Grayishblue;
+        width: 250px;
+        text-align: center;
+
+    }
+}
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
