@@ -5,10 +5,17 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  background-color: hsl(212deg, 45%, 89%);
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 .main-container {
   width: 375px;
   margin: auto;
-  background-color: hsl(212deg, 45%, 89%);
   padding-top: 6px;
 }
 
